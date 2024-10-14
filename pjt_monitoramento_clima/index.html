@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <title>Monitoramento do Clima</title>
+</head>
+<body>
+    <h1>Monitoramento do Clima</h1>
+    <input type="text" id="cidade" placeholder="Digite o nome da cidade">
+    <button id="buscar">Buscar</button>
+    
+    <div class="resultado-clima" id="resultado" style="display: none;">
+        <h2 id="titulo"></h2>
+        <p id="descricao"></p>
+        <p id="temperatura"></p>
+        <p id="umidade"></p>
+        <p id="vento"></p>
+    </div>
+
+    <div class="historico">
+        <h2>Histórico de Cidades</h2>
+        <ul id="historico"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
