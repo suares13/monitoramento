@@ -78,3 +78,4 @@ Se você deseja contribuir com melhorias para este projeto, siga as etapas:
 - Melhorar o design responsivo para dispositivos móveis.
 - Implementar a escolha de diferentes unidades de medida (Celsius, Fahrenheit).
 
+Link do projeto: https://monitoramento-de-clima-lwgqggudw-victoria-suares-projects.vercel.app/
